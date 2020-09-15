@@ -1,0 +1,22 @@
+.jumbotron{
+background-color: black;
+}
+.letras{
+    font-style: italic;
+    color: beige;
+}
+.card-hotel{
+ flex: 1 150px;
+ flex-direction: initial;
+ margin: 25px;
+ padding: 10px;
+}
+
+.btn-reverse{
+    width: 100%;
+
+}
+
+.footer{
+    margin: 30px;
+}
