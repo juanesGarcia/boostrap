@@ -10,7 +10,9 @@ background-color: black;
  flex-direction: initial;
  margin: 25px;
  padding: 10px;
+ margin-bottom: 70px;
 }
+.
 
 .btn-reverse{
     width: 100%;
@@ -18,13 +20,20 @@ background-color: black;
 }
 
 .footer{
-    margin-top: 100%;
-    padding:40px;
+    margin: 100%;
+    padding:80px;
+    
 }
+
 
 .imagen{
     width: 100%;
     height: auto;
     object-fit: cover;
     margin-bottom: 10px;
+}
+
+.nav-link{
+    font-style: inherit;
+    color: antiquewhite;
 }
