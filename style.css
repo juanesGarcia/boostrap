@@ -1,39 +1,52 @@
-.jumbotron{
-background-color: black;
-}
-.letras{
-    font-style: italic;
-    color: beige;
-}
-.card-hotel{
- flex: 1 150px;
- flex-direction: initial;
- margin: 25px;
- padding: 10px;
- margin-bottom: 70px;
-}
-.
+    .jumbotron{
+        background: black;
 
-.btn-reverse{
-    width: 100%;
-
-}
-
-.footer{
-    margin: 100%;
-    padding:80px;
+    }
+    .letras{
+        font-style: italic;
+        color: beige;
+    }
+    .card-hotel{
+     flex: 1 150px;
+     flex-direction: initial;
+     margin: 25px;
+     padding: 10px;
+     margin-bottom: 30px;
+    }
     
-}
+    
+    .btn-reverse{
+        margin-top: 5px;
+        width: 100%;
+    
+    }
+    
+    .footer{
+        margin: 100%;
+        padding:80px;
+        
+    }
+    
+    
+    .imagen-item{
+        width: 350px;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 15px;
+    }
+    
+    .nav-link{
+        font-style: inherit;
+        color: white;
+        margin-left: 10px;
 
+    }
+    
+    .containerjum{
+        background: black;
+    }
+   
+    .footer-address-icon{
 
-.imagen{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    margin-bottom: 10px;
-}
-
-.nav-link{
-    font-style: inherit;
-    color: antiquewhite;
-}
+        padding-right: 10px;
+    }
