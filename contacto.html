@@ -13,29 +13,61 @@
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleform.css"/>
     <title>Hoteles Santa Marta</title>
   </head>
   <body>
-    <div class="navbar navbar-expand-sm  bg-primary fixed-top"> 
+    <div class="navbar navbar-expand-sm  bg-primary fixed-top">
+     
         <ul class="navbar-nav mr-auto">
           <li class="nave-item"><a class="nav-link" href="index.html">home</a></li>
-          <li class="nave-item-active"><a class="nav-link" href="">paquetes</a></li>
-          <li class="nave-item"><a class="nav-link" href="contacto.html">contacto</a></li>
+          <li class="nave-item"><a class="nav-link" href="paquetes.html">paquetes</a></li>
+          <li class="nave-item-active"><a class="nav-link" href="">contacto</a></li>
         </ul>
+
     </div>
-    
     <div class="jumbotron">
       <h1 class="letras">HOTELES</h1>
     </div>
-    <a>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel ab totam impedit, voluptates quasi voluptatibus eligendi debitis molestiae necessitatibus consequatur quaerat cumque eveniet, ipsum magnam ut! Illo odit sequi fuga.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nulla iste ratione accusamus fuga non! Hic quod maiores unde dolorem ullam sapiente eveniet, alias explicabo itaque, soluta laudantium obcaecati repellendus.
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis laudantium iste neque maxime ullam totam sint nisi, recusandae enim nostrum delectus cumque eveniet perferendis magnam laboriosam eum numquam, obcaecati nulla.
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus suscipit, praesentium maxime, temporibus blanditiis inventore assumenda tempora esse reprehenderit quod repellendus distinctio quo nihil at earum, corrupti ipsam rerum quisquam!
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi fuga, nesciunt ratione ullam tenetur repudiandae dolorem repellat expedita culpa sapiente recusandae porro tempora, officiis perferendis consequatur molestias neque labore! Accusamus.
-    </a>
+    <form>
+          <div class="form-row">
+            <div class="form-group col-sm-4">
+              <label for="nombre">nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="ingrese su  nombre"/>
+            </div>
+              <div class="form-group col-sm-4">
+                <label for="apellido">apellido</label>
+                <input type="text" class="form-control" id="apellido" placeholder="ingrese su  apellido"/>
+              </div>
+          </div>
+            <div class="form-group col-sm-9 ">
+              <label for="email">email</label>
+              <input type="email" class="form-control" id="email" placeholder="ingrese su email"/>   
+            </div>
+            <div class="form-row">
+              <div class="form-group col-sm-4">
+                <label for="domilicio">domicilio</label>
+                <input type="text" class="form-control" id="domicilio" placeholder="ingrese su  nombre"/>
+              </div>
+                <div class="form-group col-sm-4">
+                  <label for="pais">pais</label>
+                  <select id="pais" class="form-control">
+                    <option selected>EUU</option>
+                    <option>Colombia</option>
+                    <option>Peru</option>
+                    <option>Venezuela</option>
+                    <option>Argentina</option>
+                  </select>
+                </div>
+            </div>
 
+
+
+
+
+
+    </form>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
