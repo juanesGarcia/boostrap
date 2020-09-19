@@ -1,6 +1,6 @@
     .jumbotron{
         background: black;
-
+        width: 100%;
     }
     .letras{
         font-style: italic;
@@ -14,10 +14,15 @@
      margin-bottom: 50px;
     }
     
+    .container{
+        flex:row;
+        display: inline-flex;
+    }
     
     .btn-reverse{
         margin-top: 5px;
         width: 100%;
+        border-radius: 7%;
     
     }
     
@@ -53,4 +58,9 @@
 
     .a{
         margin-bottom: 60px;
+    }
+
+    .nave-item{
+        display: flex;
+        flex-wrap: wrap;
     }

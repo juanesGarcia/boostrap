@@ -13,19 +13,26 @@
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="styleform.css"/>
     <title>Hoteles Santa Marta</title>
   </head>
   <body>
-    <div class="navbar navbar-expand-sm  bg-primary fixed-top">
-     
-        <ul class="navbar-nav mr-auto">
-          <li class="nave-item"><a class="nav-link" href="index.html">home</a></li>
-          <li class="nave-item"><a class="nav-link" href="paquetes.html">paquetes</a></li>
-          <li class="nave-item-active"><a class="nav-link" href="">contacto</a></li>
-        </ul>
-
+    <div class="navbar navbar-expand-sm bg-primary fixed-top">
+      <ul class="navbar-nav mr-auto">
+        <li class="nave-item"><a class="nav-link" href="index.html"><span class="oi oi-home"></span> home</a>
+        </li>
+        <li class="nave-item">
+          <a class="nav-link" href="paquetes.html"><span class="oi oi-calendar"></span> paquetes</a>
+        </li>
+        <li class="nave-item">
+          <a class="nav-link" href="#"><span class="oi oi-briefcase"></span> contacto</a>
+        </li>
+      </ul>
     </div>
     <div class="jumbotron">
       <h1 class="letras">HOTELES</h1>
@@ -41,7 +48,7 @@
                 <input type="text" class="form-control" id="apellido" placeholder="ingrese su  apellido"/>
               </div>
           </div>
-            <div class="form-group col-sm-9 ">
+            <div class="form-group col-sm-9">
               <label for="email">email</label>
               <input type="email" class="form-control" id="email" placeholder="ingrese su email"/>   
             </div>
@@ -61,6 +68,13 @@
                   </select>
                 </div>
             </div>
+      
+                </div class="form-group ">
+                <label for="comentarios" class="comen">Comentario</label>
+                <textarea id="comentarios" class="form-control" placeholder="ingrese su comentario" ></textarea>
+                  <input type="submit" class="btn btn-outline-primary"/>
+                </div>
+      
 
 
 
@@ -88,27 +102,25 @@
   </body>
   <footer>
     <div class="row aling-items-end">
-    <div class="col-sm-4 ">
+      <div class="col-sm-4">
         <a href="facebook.com">facebook</a>
         <a href="instagram.com">instagram</a>
         <a href="twitter.com">twitter</a>
-    </div>
-    <div class="col-sm-4 ">
-
-    </div>
-    <div class="col-sm-4 ">
+      </div>
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4">
         <address>
-
-          juan esteban cubillos garcia 
-          <br>
-          3186699925 
-          <br>
-          calle 48cs#25-94
-          <br>
+          <span class="oi oi-person footer-address-icon"></span>juan esteban
+          cubillos garcia
+          <br />
+          <span class="oi oi-phone footer-address-icon"></span> 3186699925
+          <br />
+          <span class="oi oi-home footer-address-icon"></span> calle 48cs#25-94
+          <br />
+          <span class="oi oi-envelope-closed footer-address-icon"></span>
           juanesgym2018@gmail.com
-
         </address>
+      </div>
     </div>
-  </div>
   </footer>
 </html>

@@ -1,6 +1,20 @@
 .form-group{
-    margin-left: 30px;
+    margin-left: 100px;
+
 }
-.form{
-    padding-bottom: 50px;
+
+#comentarios{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    width: 74%;
+    height: 100px;
+    
+}
+
+.comen{
+    margin-left: 100px;
+}
+.btn{
+    margin-bottom: 30px;
+    margin-left: 100px;
 }
