@@ -1,6 +1,6 @@
     .jumbotron{
         background: black;
-        width: 100%;
+        width: 120%;
     }
     .letras{
         font-style: italic;
@@ -11,7 +11,7 @@
      flex-direction: initial;
      padding: 10px;
      margin-right: 15px;
-     margin-bottom: 50px;
+     margin-bottom: 70px;
     }
     
     .container{
@@ -23,6 +23,7 @@
         margin-top: 5px;
         width: 100%;
         border-radius: 7%;
+        image-resolution: initial;
     
     }
     
@@ -33,13 +34,10 @@
     }
     
     
-    .imagen-item{
-        width: 350px;
-        height: 200px;
-        object-fit: cover;
-        margin-bottom: 15px;
-        display: block;
-    }
+    .card-img-top{
+    width: 100%;
+    height: 60%;
+}
     
     .nav-link{
         font-style: inherit;
@@ -64,3 +62,4 @@
         display: flex;
         flex-wrap: wrap;
     }
+    

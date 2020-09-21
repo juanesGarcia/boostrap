@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
- 
+
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -18,22 +18,31 @@
       href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="styleform.css"/>
+    <link rel="stylesheet" href="styleprecios.css" />
     <title>Hoteles Santa Marta</title>
   </head>
   <body>
     <div class="navbar navbar-expand-sm bg-primary fixed-top">
       <ul class="navbar-nav mr-auto">
-        <li class="nave-item"><a class="nav-link" href="index.html"><span class="oi oi-home"></span> Home</a>
+        <li class="nave-item">
+          <a
+            class="nav-link"
+            href="index.html"
+            ><span class="oi oi-home"></span> Home</a
+          >
         </li>
         <li class="nave-item">
-          <a class="nav-link" href="paquetes.html"><span class="oi oi-calendar"></span> Paquetes</a>
+          <a class="nav-link" href="paquetes.html"
+            ><span class="oi oi-calendar"></span> Paquetes</a
+          >
         </li>
         <li class="nave-item">
-          <a class="nav-link" href="#"><span class="oi oi-briefcase"></span> Contacto</a>
+          <a class="nav-link" href="contacto.html"
+            ><span class="oi oi-briefcase"></span> Contacto</a
+          >
         </li>
         <li class="nave-item">
-          <a class="nav-link" href="precios.html"
+          <a class="nav-link" href="#"
             > <span class="oi oi-dollar"></span> Precios</a
           >
         </li>
@@ -42,51 +51,65 @@
     <div class="jumbotron">
       <h1 class="letras">HOTELES</h1>
     </div>
-    <form>
-          <div class="form-row">
-            <div class="form-group col-sm-4">
-              <label for="nombre">nombre</label>
-              <input type="text" class="form-control" id="nombre" placeholder="ingrese su  nombre"/>
-            </div>
-              <div class="form-group col-sm-4">
-                <label for="apellido">apellido</label>
-                <input type="text" class="form-control" id="apellido" placeholder="ingrese su  apellido"/>
-              </div>
-          </div>
-            <div class="form-group col-sm-9">
-              <label for="email">email</label>
-              <input type="email" class="form-control" id="email" placeholder="ingrese su email"/>   
-            </div>
-            <div class="form-row">
-              <div class="form-group col-sm-4">
-                <label for="domilicio">domicilio</label>
-                <input type="text" class="form-control" id="domicilio" placeholder="ingrese su  nombre"/>
-              </div>
-                <div class="form-group col-sm-4">
-                  <label for="pais">pais</label>
-                  <select id="pais" class="form-control">
-                    <option selected>EUU</option>
-                    <option>Colombia</option>
-                    <option>Peru</option>
-                    <option>Venezuela</option>
-                    <option>Argentina</option>
-                  </select>
-                </div>
-            </div>
-      
-                </div class="form-group ">
-                <label for="comentarios" class="comen">Comentario</label>
-                <textarea id="comentarios" class="form-control" placeholder="ingrese su comentario" ></textarea>
-                  <input type="submit" class="btn btn-outline-primary"/>
-                </div>
-      
 
+    <div class="table-responsive">
+       <table class="table table-striped">
+         <thead class="thead-dark">
+           <th>Calidad</th>
+           <th>Santa Marta</th>
+           <th>Medellin</th>
+           <th>Cartagena</th>
+           <th>Bogota</th>
+           <th>San Andres</th>
+         </thead>
+         <tbody>
+          <tr>
+            <td>1 Estrellas</td>
+            <th>50.000$</th>
+            <th>40.000$</th>
+            <th>60.000$</th>
+            <th>30.000$</th>
+            <th>80.000$</th>
+          </tr>
+          <tr>
+            <td>2 Estrellas</td>
+            <th>60.000$</th>
+            <th>50.000$</th>
+            <th>70.000$</th>
+            <th>45.000$</th>
+            <th>100.000$</th>
+          </tr>
+          <tr>
+            <td>3 Estrellas</td>
+            <th>100.000$</th>
+            <th>80.000$</th>
+            <th>120.000$</th>
+            <th>75.000$</th>
+            <th>150.000$</th>
+          </tr>
+          <tr>
+            <td>4 Estrellas</td>
+            <th>120.000$</th>
+            <th>100.000$</th>
+            <th>140.000$</th>
+            <th>95.000$</th>
+            <th>180.000$</th>
+          </tr>
 
+          <tr>
+            <td>5 Estrellas</td>
+            <th>150.000$</th>
+            <th>120.000$</th>
+            <th>180.000$</th>
+            <th>115.000$</th>
+            <th>210.000$</th>
+          </tr>
+        </tbody>    
+       </table>
 
+    </div>
 
-
-
-    </form>
+   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
