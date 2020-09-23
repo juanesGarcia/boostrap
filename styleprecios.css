@@ -19,12 +19,11 @@
 }
 
 #comentarios{
-   
 width: 70%;
 height: 100px;
 margin-left: 40px;
 margin-top: 15px;
-margin-bottom: 15px;
+margin-bottom: 10px;
 
 }
 
@@ -32,4 +31,8 @@ margin-bottom: 15px;
   display: flex;
   flex-wrap: wrap;
   margin-left: 40px;
+}
+
+.links{
+  margin-top: 15%;
 }
