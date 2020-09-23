@@ -1,154 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
-    <link
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="styleprecios.css"/>
+  <link
       rel="stylesheet"
       href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="styleprecios.css" />
     <title>Hoteles Santa Marta</title>
-  </head>
-  <body>
-    <div class="navbar navbar-expand-sm bg-primary fixed-top">
-      <ul class="navbar-nav mr-auto">
-        <li class="nave-item">
-          <a
-            class="nav-link"
-            href="index.html"
-            ><span class="oi oi-home"></span> Home</a
-          >
-        </li>
-        <li class="nave-item">
-          <a class="nav-link" href="paquetes.html"
-            ><span class="oi oi-calendar"></span> Paquetes</a
-          >
-        </li>
-        <li class="nave-item">
-          <a class="nav-link" href="contacto.html"
-            ><span class="oi oi-briefcase"></span> Contacto</a
-          >
-        </li>
-        <li class="nave-item">
-          <a class="nav-link" href="#"
-            > <span class="oi oi-dollar"></span> Precios</a
-          >
-        </li>
-      </ul>
-    </div>
-    <div class="jumbotron">
-      <h1 class="letras">HOTELES</h1>
-    </div>
+</head>
+<body>
 
+  <div class="navbar navbar-expand-sm bg-primary fixed-top">
+    <ul class="navbar-nav mr-auto">
+      <li class="nave-item">
+        <a
+          class="nav-link"
+          href="index.html"
+          ><span class="oi oi-home"></span> Home</a
+        >
+      </li>
+      <li class="nave-item">
+        <a class="nav-link" href="paquetes.html"
+          ><span class="oi oi-calendar"></span> Paquetes</a
+        >
+      </li>
+      <li class="nave-item">
+        <a class="nav-link" href="contacto.html"
+          ><span class="oi oi-briefcase"></span> Contacto</a
+        >
+      </li>
+      <li class="nave-item">
+        <a class="nav-link" href="#"
+          > <span class="oi oi-dollar"></span> Precios</a
+        >
+      </li>
+    </ul>
+  </div>
+  <div class="jumbotron">
+    <h1 class="letras">HOTELES</h1>
+  </div>
+
+  <p>
+    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+      Precios
+    </a>
+    <button class="btn btn-primary" type="button" data-toggle="collapse" href="#comentarios" aria-expanded="false" aria-controls="collapseExample2">
+      comentarios
+    </button>
+  </p>
+  <div class="collapse" id="collapseExample">
     <div class="table-responsive">
-       <table class="table table-striped">
-         <thead class="thead-dark">
-           <th>Calidad</th>
-           <th>Santa Marta</th>
-           <th>Medellin</th>
-           <th>Cartagena</th>
-           <th>Bogota</th>
-           <th>San Andres</th>
-         </thead>
-         <tbody>
-          <tr>
-            <td>1 Estrellas</td>
-            <th>50.000$</th>
-            <th>40.000$</th>
-            <th>60.000$</th>
-            <th>30.000$</th>
-            <th>80.000$</th>
-          </tr>
-          <tr>
-            <td>2 Estrellas</td>
-            <th>60.000$</th>
-            <th>50.000$</th>
-            <th>70.000$</th>
-            <th>45.000$</th>
-            <th>100.000$</th>
-          </tr>
-          <tr>
-            <td>3 Estrellas</td>
-            <th>100.000$</th>
-            <th>80.000$</th>
-            <th>120.000$</th>
-            <th>75.000$</th>
-            <th>150.000$</th>
-          </tr>
-          <tr>
-            <td>4 Estrellas</td>
-            <th>120.000$</th>
-            <th>100.000$</th>
-            <th>140.000$</th>
-            <th>95.000$</th>
-            <th>180.000$</th>
-          </tr>
+      <table class="table table-striped">
+        <thead class="thead-dark">
+          <th>Calidad</th>
+          <th>Santa Marta</th>
+          <th>Medellin</th>
+          <th>Cartagena</th>
+          <th>Bogota</th>
+          <th>San Andres</th>
+        </thead>
+        <tbody>
+         <tr>
+           <td>1 Estrellas</td>
+           <th>50.000$</th>
+           <th>40.000$</th>
+           <th>60.000$</th>
+           <th>30.000$</th>
+           <th>80.000$</th>
+         </tr>
+         <tr>
+           <td>2 Estrellas</td>
+           <th>60.000$</th>
+           <th>50.000$</th>
+           <th>70.000$</th>
+           <th>45.000$</th>
+           <th>100.000$</th>
+         </tr>
+         <tr>
+           <td>3 Estrellas</td>
+           <th>100.000$</th>
+           <th>80.000$</th>
+           <th>120.000$</th>
+           <th>75.000$</th>
+           <th>150.000$</th>
+         </tr>
+         <tr>
+           <td>4 Estrellas</td>
+           <th>120.000$</th>
+           <th>100.000$</th>
+           <th>140.000$</th>
+           <th>95.000$</th>
+           <th>180.000$</th>
+         </tr>
 
-          <tr>
-            <td>5 Estrellas</td>
-            <th>150.000$</th>
-            <th>120.000$</th>
-            <th>180.000$</th>
-            <th>115.000$</th>
-            <th>210.000$</th>
-          </tr>
-        </tbody>    
-       </table>
+         <tr>
+           <td>5 Estrellas</td>
+           <th>150.000$</th>
+           <th>120.000$</th>
+           <th>180.000$</th>
+           <th>115.000$</th>
+           <th>210.000$</th>
+         </tr>
+       </tbody>    
+      </table>
+   </div>
+ </div>
+ <div class="collapse" id="comentarios">
 
-    </div>
+  <label for="comentarios" class="comen"><h3>Comentarios</h3></label>
+  <textarea id="comentarios"  placeholder="digite los comentarios">
+  </textarea>
+  <input type="submit" class="btnsub btn-outline-primary"/>
+ </div>
 
-   
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="node_modules/jquery/dist/jquery.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="node_modules/popper.js/dist/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="node_modules/bootstrap/dist/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-  <footer>
-    <div class="row aling-items-end">
-      <div class="col-sm-4">
-        <a href="facebook.com">facebook</a>
-        <a href="instagram.com">instagram</a>
-        <a href="twitter.com">twitter</a>
-      </div>
-      <div class="col-sm-4"></div>
-      <div class="col-sm-4">
-        <address>
-          <span class="oi oi-person footer-address-icon"></span>juan esteban
-          cubillos garcia
-          <br />
-          <span class="oi oi-phone footer-address-icon"></span> 3186699925
-          <br />
-          <span class="oi oi-home footer-address-icon"></span> calle 48cs#25-94
-          <br />
-          <span class="oi oi-envelope-closed footer-address-icon"></span>
-          juanesgym2018@gmail.com
-        </address>
-      </div>
-    </div>
-  </footer>
+</body>
 </html>

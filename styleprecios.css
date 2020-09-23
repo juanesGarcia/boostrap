@@ -2,7 +2,34 @@
     width: 80%;
     margin-left: 50px;
     margin-bottom: 70px;
+    margin-top:  20px;
 }
 .jumbotron{
   width: 110%;
+}
+.btn{
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.comen{
+  display: flex;
+  align-items: flex-start;
+  margin-left: 40px;
+}
+
+#comentarios{
+   
+width: 70%;
+height: 100px;
+margin-left: 40px;
+margin-top: 15px;
+margin-bottom: 15px;
+
+}
+
+.btnsub{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 40px;
 }
