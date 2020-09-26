@@ -67,3 +67,15 @@
         flex-wrap: wrap;
         padding: 5px;
     }
+
+    .carousel-inner img{
+        width: 80%;
+        height: 80%;
+        
+    }
+
+    #myCarousel{
+        margin-left: 10%;
+        margin-bottom: 40px;
+        margin-right: 10%;
+    }
