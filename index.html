@@ -11,7 +11,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <title>Hoteles Santa Marta</title>
   </head>
   <body>
@@ -160,7 +160,7 @@
           reservar
         </button>
       </div>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#myModal" id="contactoBtn">
           contacto
         </button>
         <div class="modal fade" id="myModal">
@@ -202,6 +202,22 @@
     <script>
         $(function(){
           $("[data-toggle='tooltip']").tooltip();
+
+          $("#myModal" ).on('show.bs.modal',function(e){
+              console.log("el modal se esta mostrando");
+              $("#contactoBtn").removeClass('btn btn-outline-success');
+              $("#contactoBtn").addClass('btn btn-primary');
+              $("#contactoBtn").prop('disabled',true);
+          });
+          $("#myModal" ).on('shown.bs.modal',function(e){
+            console.log("el modal se mostro");
+          });
+          $("#myModal" ).on('hide.bs.modal',function(e){
+            console.log("el modal contacto se oculta");
+          });
+          $("#myModal" ).on('hidden.bs.modal',function(e){
+            console.log("el modal contacto se oculto");
+          });
         });
     </script>
 
